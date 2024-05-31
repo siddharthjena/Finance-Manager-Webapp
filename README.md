@@ -1,7 +1,7 @@
 Beancounter (A Personal Finance Webapp)
 
 //Description:-//
-Beancounter W is a web application designed to help users track their income, daily expenses, and view their remaining balance securely through unique login credentials. 
+Beancounter is a web application designed to help users track their income, daily expenses, and view their remaining balance securely through unique login credentials. 
 The application leverages Python, Django, HTML5, CSS3 (Bootstrap), and MySQL to provide a seamless and secure experience for managing personal finances.
 
 //Features:-//
