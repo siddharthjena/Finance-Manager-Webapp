@@ -1,0 +1,49 @@
+{% extends 'Tracker/bas1.html' %}
+{% load static %}
+{% block body_block %}
+
+<div>
+    <div class="row">
+      <div class="col-8 col-order-first">
+          <div class="welcome-card">
+            <div class="card" id="welcome">
+              <div class="card-body">
+                <h1>Welcome</h1>
+                <h3>{{name}} <img src="{% static 'images/welcome.webp' %}" alt="" style="padding-top: 10px;"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="variation-card">
+            <div class="card" id="variation">
+              <h2 class="card-header" style="border-radius: 20px;background-image: linear-gradient(90deg, rgb(241, 121, 121),rgb(244, 174, 174));">Expense Variation</h2>
+              <div class="card-body">
+                svfea
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-4 col-order-second">
+        <div class="pending-card">
+          <div class="card" id="pending">
+            <h2 class="card-header" style="border-radius: 20px;background-image: linear-gradient(90deg, rgb(241, 121, 121),rgb(244, 174, 174));">Pending Payments</h2>
+            <div class="card-body">
+              svfea
+            </div>
+          </div>
+        </div>
+        <div class="done-card">
+          <div class="card"  id="done">
+            <h2 class="card-header" style="border-radius: 20px;background-image: linear-gradient(90deg, rgb(241, 121, 121),rgb(244, 174, 174));">Payments Done</h2>
+            <div class="card-body">
+              svfea
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+{% endblock %}

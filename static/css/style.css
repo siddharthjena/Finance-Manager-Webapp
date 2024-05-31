@@ -1,0 +1,198 @@
+body{
+    background-image: linear-gradient(90deg,rgb(246, 242, 242),rgb(255, 253, 253));
+}
+.sidebar{
+    display: flex;
+    background-color: rgb(104, 103, 101);
+    height: 100vh;
+    width: 300px;
+}
+
+.sidebar ul{
+    list-style-type: none;
+}
+
+.sidebar li{
+   padding-top: 20px;
+   font-size: x-large;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card-body{
+        font-size:large;
+        padding-top: 5px;
+       
+
+}
+
+.btn{
+    background-color: white;
+    width: 220px;
+}
+.card{
+   background-color: rgb(230, 196, 195);
+   border-radius: 30px;
+}
+
+.variation-card .card {
+    background-color: rgb(230, 196, 195);
+    border-radius: 30px;
+  }
+
+.welcome-card{
+    padding-top: 20px;
+    
+}
+.variation-card{
+    padding-top: 20px;
+   }
+.pending-card{
+    padding-top: 20px;
+    padding-left: 90px;
+    
+}
+.done-card{
+    padding-top: 16px;
+    padding-left: 90px;
+    
+}
+.card-header{
+    text-align: center;
+}
+.dash-up{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+#balance{
+    font-size: 40px;
+}
+.card-header{
+    
+    color: white;
+}
+#welcome{
+    width: 70rem;
+    height: 15rem;
+}
+#variation{
+    width: 70rem; 
+    height: 35rem;
+}
+
+#pending{
+    width: 25rem; 
+    height: 25rem;
+}
+
+#done{
+    width: 25rem; 
+    height: 25rem;
+}
+
+#current{
+    width: 25rem;
+     height: 15rem;
+     background-color: rgb(136, 204, 250);
+}
+
+#total{
+    width: 25rem;
+    height: 15rem;
+    background-color: rgb(212, 166, 230);
+}
+
+#today{
+    width: 25rem;
+    height: 15rem;
+    background-color: rgb(238, 238, 184);
+}
+
+#income{
+    width: 40rem;
+     height: 30rem;
+}
+
+#expense{
+    width: 40rem;
+    height: 30rem;
+}
+#side-li{
+    width: 14rem; height:2rem; text-align: center;
+}
+
+#nav{
+    background-color: rgb(5, 6, 35); height:60px;color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:600px)
+{
+
+   #welcome{
+    width: 386px;
+    height: 100px;
+   } 
+   .welcome-card{
+    padding-left: 82px;
+    padding-top: 0px;
+    
+   }
+   h1{
+    font-size: xx-small;
+   }
+   .sidebar{
+    width: 100px;
+    height: 930px;
+   }
+
+   #side-li{
+    width: 98px;
+    
+    
+   }
+   #side-text{
+    font-size: 12px;
+   }
+   ul{
+    padding-left: 0px;
+   }
+
+   #variation{
+    width: 386px;
+    height: 400px;
+   }
+   .variation-card{
+    padding-left: 82px;
+    padding-top: 5px;
+   }
+
+   #pending{
+    width: 386px;
+    height: 200px;
+   }
+   #done{
+    width: 386px;
+    height: 200px;
+   }
+   
+   body{
+    width: 30%;
+   }
+  #nav{
+    width: 100vw;
+  }
+  .pending-card{
+    padding-left: 0px;
+    padding-top: 520px;
+  }
+  .done-card{
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .col-order-second{
+    padding-left: 0px;
+    
+  }
+
+}

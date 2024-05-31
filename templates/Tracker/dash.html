@@ -1,0 +1,72 @@
+{% extends 'Tracker/bas1.html' %}
+{%  load static %}
+{% block body_block %}
+
+<div class="dash-up">
+    <div class="text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card"  id="current">
+                <h2 class="card-header" style="border-radius: 20px;background-color: rgb(73, 117, 219);">Current Balance</h2>
+                <div class="card-body" id="balance">
+                    <b>{{ remaining_balance }}</b>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card"  id="total">
+                <h2 class="card-header" style="border-radius: 20px;background-color: rgb(142, 66, 214);">Total Expenses</h2>
+                <div class="card-body" id="balance">
+                    <b>{{expenses}}</b>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card"  id="today">
+                <h2 class="card-header" style="border-radius: 20px;background-color: rgb(207, 207, 78);">Today's expenses</h2>
+                <div class="card-body" id="balance">
+                  <b>30000</b>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div>
+    <form action="" method="post">
+        {% csrf_token %}
+        <div style="padding-left: 80px;padding-top: 30px; text-align: center;">
+            <div class="row">
+                <div class="col" style="padding-top: 40px;">
+                    <div class="card" id="income">
+                        <h2 class="card-header" style="font-family: Arial, Helvetica, sans-serif; font-size: xx-large;border-radius: 20px; "><b>Update Income</b></h2>
+                        <div class="card-body" style="padding-top: 30px;">
+                            <input type="number" id="salary" name="salary" placeholder="Enter your Income" style="font-size: xx-large;"><br>
+                  
+                            <button type="submit" name="action" value="update_income" class="btn btn-success" style="margin-top: 20px;">Update Income</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding-top: 40px;">
+                    <div class="col">
+                        <div class="card" id="expense">
+                            <h2 class="card-header" style="font-family: Arial, Helvetica, sans-serif; font-size: xx-large;border-radius: 20px;"><b>Update Expense</b></h2>
+                            <div class="card-body" style="padding-top: 30px;">
+                                <input type="number" id="expenses" name="expenses"  placeholder="Enter your Expense" style="font-size: xx-large;"><br>
+                                <label for="mode_of_expense" style="font-family: Arial, Helvetica, sans-serif; font-size: x-large; color: #013567; padding-top: 40px;"><b>Mode of Expense:</b></label>
+                            <select id="mode_of_expense" name="mode_of_expense" style="font-size: x-large;">
+                                <option value="Food">Food</option>
+                                <option value="Fuel">Fuel</option>
+                                <option value="Rent">Rent</option>
+                                <option value="Others">Others</option>
+                            </select><br>
+                                <button type="submit" name="action" value="update_expense" class="btn btn-danger" style="margin-top: 20px;">Update Expense</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
