@@ -7,19 +7,19 @@ The application leverages Python, Django, HTML5, CSS3 (Bootstrap), and MySQL to 
 ### Features:-
 - **Track Income and Expenses:** Add, categorize, and manage your income and daily expenses.
 - **View Remaining Balance:** Easily view your remaining balance based on your tracked income and expenses.
-- **User Authentication and Authorization: Securely access your financial information with unique login credentials.**
-- **Responsive Design: Built with HTML5 and CSS3 (Bootstrap) for a responsive and user-friendly interface.**
+- **User Authentication and Authorization:** Securely access your financial information with unique login credentials.
+- **Responsive Design:** Built with HTML5 and CSS3 (Bootstrap) for a responsive and user-friendly interface.
 
 ### Technologies Used:-
-->Backend: Python, Django, MySQL
-->Frontend: HTML5, CSS3 (Bootstrap)
-->Template Engine: Jinja2
-->Database Management: Django ORM (Object Relational Mapper)
+- **Backend:** Python, Django, MySQL
+- **Frontend:** HTML5, CSS3 (Bootstrap)
+- **Template Engine:** Jinja2
+- **Database Management:** Django ORM (Object Relational Mapper)
 
 ### Files and Folders
-ExpenseTracker/:
-  ->settings.py: Contains project settings such as database configuration, installed apps, static files configuration, etc.
-  ->urls.py: Main URL configuration for the project, including routing to app-level URLs.
+- **ExpenseTracker/:**
+  - settings.py: Contains project settings such as database configuration, installed apps, static files configuration, etc.
+  - urls.py: Main URL configuration for the project, including routing to app-level URLs.
   
 Tracker/ (Django App):
   ->models.py: Defines Django models for the application, including income, expenses, user profiles, etc.
