@@ -7,6 +7,8 @@
 - [Files and Folders](#files-and-folders)
 - [Manual Testing](#manual-testing)
 - [Usage](#usage)
+-
+
 
 ### Description:-
 Beancounter is a web application designed to help users track their income, daily expenses, and view their remaining balance securely through unique login credentials. 
