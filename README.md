@@ -1,5 +1,13 @@
 ### Beancounter (A Personal Finance Webapp)
 
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Files and Folders](#files-and-folders)
+- [Manual Testing](#manual-testing)
+- [Usage](#usage)
+
 ### Description:-
 Beancounter is a web application designed to help users track their income, daily expenses, and view their remaining balance securely through unique login credentials. 
 The application leverages Python, Django, HTML5, CSS3 (Bootstrap), and MySQL to provide a seamless and secure experience for managing personal finances.
