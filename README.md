@@ -5,8 +5,8 @@ Beancounter is a web application designed to help users track their income, dail
 The application leverages Python, Django, HTML5, CSS3 (Bootstrap), and MySQL to provide a seamless and secure experience for managing personal finances.
 
 ### Features:-
-- **Track Income and Expenses: Add, categorize, and manage your income and daily expenses.**
-- **View Remaining Balance: Easily view your remaining balance based on your tracked income and expenses.**
+- **Track Income and Expenses:** Add, categorize, and manage your income and daily expenses.
+- **View Remaining Balance:** Easily view your remaining balance based on your tracked income and expenses.
 - **User Authentication and Authorization: Securely access your financial information with unique login credentials.**
 - **Responsive Design: Built with HTML5 and CSS3 (Bootstrap) for a responsive and user-friendly interface.**
 
