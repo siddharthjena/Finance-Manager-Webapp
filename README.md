@@ -5,7 +5,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Files and Folders](#files-and-folders)
-- [Manual Testing](#manual-testing)
+- [Manual Testing](#Manual-Testing)
 - [Usage](#usage)
 
 
