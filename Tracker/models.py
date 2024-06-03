@@ -14,7 +14,7 @@ class User(models.Model):
 class Transaction(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     amount = models.DecimalField(max_digits=10, decimal_places=2)
-    is_income = models.BooleanField(default=False)  # True for income, False for expense
+    is_income = models.BooleanField(default=False)  # True for income and  False for expense
     date = models.DateField(auto_now_add=True)
     category = models.CharField(max_length=50, null=True, blank=True)
 
